@@ -611,7 +611,7 @@ const posts = [
 ]
 
 module.exports = async function (fastify, opts) {
-	fastify.get('/posts', async function (request, reply) {
+	fastify.get('/', async function (request, reply) {
 		return { posts }
 	})
 }
