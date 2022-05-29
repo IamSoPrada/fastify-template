@@ -10,7 +10,7 @@ module.exports = fp(async function (fastify, opts) {
 				version: '0.1.0',
 			},
 			host: 'localhost:3000',
-			schemes: ['http'],
+			schemes: ['https'],
 			consumes: ['application/json'],
 			produces: ['application/json'],
 		},
